@@ -8,3 +8,20 @@
     margin-top: 50px;
 
 }
+
+
+@media screen and (max-width: 768px) {
+    .list {
+      padding: 15px;
+      width: 400px;
+      margin-top: 30px; 
+    }
+  }
+
+  @media screen and (max-width: 445px) {
+    .list {
+      padding: 15px;
+      width: 300px;
+      margin-top: 30px; 
+    }
+  }

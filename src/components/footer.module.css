@@ -1,5 +1,5 @@
 .footer{
-    background-color: darkblue;
+    background-color: rgb(30, 30, 90);
     color: yellow;
     position: fixed;
     bottom: 0;
@@ -14,3 +14,13 @@
 .item{
     margin:50px
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+      font-size: 1em; 
+    }
+  
+    .item {
+      margin: 10px; 
+    }
+  }

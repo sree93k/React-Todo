@@ -8,6 +8,7 @@
 .itemName{
     font-weight: bold;
     padding: 20px;
+    
 }
 
 .line{
@@ -16,9 +17,9 @@
 
 .deleteButton{
     float :right;
-    padding: 12px 20px;
+    padding: 6px 10px;
     border: none;
-    background-color:#f7ca18 ;
+    background-color:#c93209 ;
     color: #f4f4f4;
     margin-top: -5px;
     border-radius: 4px;
@@ -28,3 +29,81 @@
 .completed{
     text-decoration: line-through;
 }
+
+.editButton{
+    float :right;
+    padding: 6px 10px;
+    border: none;
+    background-color:#0b3b1a ;
+    color: #f4f4f4;
+    margin-top: -5px;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.saveButton{
+    float :right;
+    padding: 6px 10px;
+    border: none;
+    background-color:#2b8817 ;
+    color: #f4f4f4;
+    margin-top: -5px;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.editInput{
+    
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(21, 32, 198);
+    width: auto;
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .item {
+      font-size: 18px; 
+      width: 100%;
+    }
+  
+    .itemName {
+      padding: 8px; 
+    }
+  
+    .deleteButton,
+    .editButton,
+    .saveButton {
+      padding: 5px 10px; 
+    }
+
+   
+    
+  }
+
+  @media screen and (max-width: 445px) {
+    .item {
+      font-size: 18px; 
+      width: 100%;
+    }
+  
+    .itemName {
+      padding: 8px; 
+    }
+  
+    .deleteButton,
+    .editButton,
+    .saveButton {
+      padding: 5px 10px; 
+    }
+
+    .editInput{
+        width: 60;
+    }
+    
+  }

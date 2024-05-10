@@ -13,7 +13,6 @@
     display: block;
     color: black;
     font-size: 16px;
-
 }
 
 .modernInput:focus{
@@ -24,11 +23,39 @@
     display: inline-block;
     border: none;
     border-radius: 4px;
-    background-color: #f7ca18;
-    padding: 12px 20px;
+    background-color: #8dc43e;
+    padding: 6px 10px;
     color: white;
     cursor: pointer;
 }
 .inputContainer{
     display: flex;
 }
+
+.validation{
+    color: red;
+    font-size: x-small;
+}
+
+
+@media screen and (max-width: 768px) {
+    .todoform {
+      padding: 10px; 
+      width: 400px;
+    }
+  
+    .modernButton {
+      width: 30%; 
+    }
+  }
+
+  @media screen and (max-width: 445px) {
+    .todoform {
+      padding: 10px; 
+      width: 300px;
+    }
+  
+    .modernButton {
+      width: 30%; 
+    }
+  }

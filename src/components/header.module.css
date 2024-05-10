@@ -1,10 +1,40 @@
 .header {
-  background-color: #040b23;
+  background-color:  rgb(3, 3, 11);
   text-align: center;
-  font-weight: bold;
-  height: 50px;
+
+  height: 60px;
   color: white;
   padding: 10px;
-  font-size: 2em;
+  font-size: 3em;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+}
+
+.image1{
+  width: 250px;
+  height:70px;
+}
+.image2{
+  width: 200px;
+  height: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 1.5em; 
+    height: 50px; 
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .header {
+    font-size: 1.5em; 
+    height: 40px; 
+    
+  }
 }
